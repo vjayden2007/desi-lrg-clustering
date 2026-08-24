@@ -1,0 +1,23 @@
+name: desi-lss
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - matplotlib
+  - astropy
+  - fitsio
+  - healpy
+  - scikit-learn
+  - camb
+  - emcee
+  - corner
+  - gsl
+  - jupyter
+  - ipython
+  - compilers
+  - pip
+  - pip:
+    - Corrfunc
+    - git+https://github.com/cosmodesi/cosmoprimo
+    - git+https://github.com/cosmodesi/pycorr
