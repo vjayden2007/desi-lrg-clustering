@@ -1,0 +1,7 @@
+data/
+*.fits
+*.npy
+*.npz
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
